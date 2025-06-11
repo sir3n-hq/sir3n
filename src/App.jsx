@@ -2,7 +2,7 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import MapPage from './pages/MapPage';
-import AboutPage from './pages/AboutPage';
+import WhoAreWePage from './pages/WhoAreWePage';
 import SubmissionsPage from './pages/SubmissionsPage';
 
 const App = () => {
@@ -18,8 +18,8 @@ const App = () => {
           element={<MapPage />}
         />
         <Route
-          path="/about"
-          element={<AboutPage />}
+          path="/whoarewe"
+          element={<WhoAreWePage />}
         />
         <Route
           path="/submissions"

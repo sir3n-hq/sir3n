@@ -1,0 +1,258 @@
+@font-face {
+  font-family: 'Silkscreen-Regular';
+  src: url('/fonts/Silkscreen-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.who-are-we {
+  background-color: #1a1a1a;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.who-are-we .div {
+  background-color: #1a1a1a;
+  height: 770px;
+  overflow: hidden;
+  position: relative;
+  width: 1440px;
+}
+
+.who-are-we .overlap {
+  height: 770px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1440px;
+}
+
+.who-are-we .element {
+  height: 302px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 468px;
+  width: 500px;
+}
+
+.who-are-we .img {
+  height: 302px;
+  left: 995px;
+  object-fit: cover;
+  position: absolute;
+  top: 468px;
+  width: 445px;
+}
+
+.who-are-we .element-2 {
+  height: 302px;
+  left: 500px;
+  object-fit: cover;
+  position: absolute;
+  top: 468px;
+  width: 500px;
+}
+
+.who-are-we .element-3 {
+  height: 500px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 500px;
+}
+
+.who-are-we .element-4 {
+  height: 500px;
+  left: 995px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 445px;
+}
+
+.who-are-we .element-5 {
+  height: 500px;
+  left: 500px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 500px;
+}
+
+.who-are-we .logo-removebg {
+  height: 169px;
+  left: 24px;
+  object-fit: cover;
+  position: absolute;
+  top: 23px;
+  width: 169px;
+}
+
+.who-are-we .button {
+  all: unset;
+  align-items: center;
+  background-color: #f2f2f2;
+  border-radius: 8px;
+  box-shadow: var(--button-shadow);
+  box-sizing: border-box;
+  display: flex;
+  gap: 8px;
+  height: 64px;
+  justify-content: center;
+  left: 520px;
+  padding: 14px 24px;
+  position: absolute;
+  top: 75px;
+  width: 461px;
+}
+
+.who-are-we .text-wrapper {
+  color: #000000;
+  font-family: "Silkscreen-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-left: -1.00px;
+  margin-right: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.who-are-we .copy {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  height: 148px;
+  left: 531px;
+  position: absolute;
+  top: 122px;
+  width: 439px;
+}
+
+.who-are-we .page-title {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+  width: 100%;
+}
+
+.who-are-we .text-wrapper-2 {
+  align-self: stretch;
+  color: #6a0dad;
+  font-family: "Bokor-Regular", Helvetica;
+  font-size: 96px;
+  font-weight: 400;
+  height: 118px;
+  letter-spacing: -1.92px;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+}
+
+.who-are-we .we-are-women {
+  color: transparent;
+  font-family: "Silkscreen-Regular", Helvetica;
+  font-size: 21px;
+  font-weight: 400;
+  height: 448px;
+  left: 35px;
+  letter-spacing: 4.20px;
+  line-height: 31.5px;
+  position: absolute;
+  text-align: center;
+  top: 269px;
+  width: 1370px;
+}
+
+.who-are-we .span {
+  color: #f2f2f2;
+  letter-spacing: 0.88px;
+}
+
+.who-are-we .text-wrapper-3 {
+  color: #33cc99;
+  letter-spacing: 0.88px;
+}
+
+.who-are-we .text-wrapper-4 {
+  color: #6a0dad;
+  letter-spacing: 0.88px;
+}
+
+.who-are-we .div-wrapper {
+  all: unset;
+  align-items: center;
+  background-color: #33cc99;
+  border-radius: 8px;
+  box-shadow: var(--button-shadow);
+  box-sizing: border-box;
+  display: flex;
+  gap: 8px;
+  height: 64px;
+  justify-content: center;
+  left: 1160px;
+  padding: 14px 24px;
+  position: absolute;
+  top: 75px;
+  width: 193px;
+}
+
+.who-are-we .text-wrapper-5 {
+  color: #000000;
+  font-family: "Silkscreen-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.who-are-we .element-6 {
+  height: 500px;
+  left: 5576px;
+  object-fit: cover;
+  position: absolute;
+  top: 1547px;
+  width: 500px;
+}
+
+.who-are-we .overlap-group {
+  height: 500px;
+  left: 6076px;
+  position: absolute;
+  top: 1547px;
+  width: 995px;
+}
+
+.who-are-we .element-7 {
+  height: 500px;
+  left: 495px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 500px;
+}

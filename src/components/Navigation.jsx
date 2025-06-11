@@ -1,14 +1,43 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import { useState, useEffect } from 'react';
+import './Navigation.css';
 
 const Navigation = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isSticky, setIsSticky] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsSticky(window.scrollY > 0);
+    };
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
   return (
-    <nav className="flex space-x-6 text-lg py-4">
-      <Link to="/" className="hover:underline">Home</Link>
-      <Link to="/map" className="hover:underline">Map</Link>
-      <Link to="/about" className="hover:underline">Who Are We?</Link>
-      <Link to="/submissions" className="hover:underline">Submissions</Link>
-    </nav>
+    <header className={isSticky ? 'sticky' : ''}>
+      <div className="nav-container">
+        <a href="/" className="logo">
+          <img src="/logo.png" alt="Logo" />
+        </a>
+
+        <div
+          className={`hamburger ${isMenuOpen ? 'active' : ''}`}
+          onClick={() => setIsMenuOpen(!isMenuOpen)}
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <nav className={`nav-links ${isMenuOpen ? 'active' : ''}`}>
+          <a href="/" className="active">Home</a>
+          <a href="/map">Map</a>
+          <a href="/submissions">Submissions</a>
+          <a href="/about">About</a>
+          <a href="/contact">Contact</a>
+        </nav>
+      </div>
+    </header>
   );
 };
 
