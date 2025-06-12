@@ -1,7 +1,7 @@
 import React from "react";
 import "./WhoAreWePage.css";
 
-export const WhoAreWe = () => {
+export const WhoAreWePage = () => {
   return (
     <div className="who-are-we">
 
@@ -121,3 +121,5 @@ export const WhoAreWe = () => {
       </div>
   );
 };
+
+export default WhoAreWePage;
