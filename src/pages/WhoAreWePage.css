@@ -26,14 +26,14 @@
 
 .who-are-we .div {
   background-color: #1a1a1a;
-  height: 770px;
+  height: 660px;
   overflow: hidden;
   position: relative;
   width: 1440px;
 }
 
 .who-are-we .overlap {
-  height: 770px;
+  height: 660px;
   left: 0;
   position: absolute;
   top: 0;
@@ -114,7 +114,7 @@
   gap: 8px;
   height: 64px;
   justify-content: center;
-  left: 520px;
+  left: 465px;
   padding: 14px 24px;
   position: absolute;
   top: 75px;
@@ -156,6 +156,7 @@
   gap: 24px;
   position: relative;
   width: 100%;
+  right: 50px;
 }
 
 .who-are-we .text-wrapper-2 {
@@ -177,7 +178,7 @@
   font-size: 21px;
   font-weight: 400;
   height: 448px;
-  left: 35px;
+  left: 10px;
   letter-spacing: 4.20px;
   line-height: 31.5px;
   position: absolute;
